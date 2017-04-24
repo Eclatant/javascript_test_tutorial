@@ -1,8 +1,7 @@
-const operator = require('../src/operator');
+import operator from '../src/operator';
+import chai from 'Chai';
 const sum = operator.sum;
-const chai = require('Chai');
 const expect = chai.expect;
-// const should = chai.should();
 
 //Mocha
 describe('operator.js Test', () => {
